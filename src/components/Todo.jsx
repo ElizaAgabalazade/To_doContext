@@ -14,7 +14,7 @@ const Todo = () => {
       {
         add && add.map(item =>(
                 <div className='item_box' key={item.id}>
-                <p className='text' >{item.content}</p>
+                <p className='text' >{item.text}</p>
                 <div className="icons">
                   <FaEdit className='icon_edit' /><FaTrashAlt />
                 </div>

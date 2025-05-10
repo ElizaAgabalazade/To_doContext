@@ -11,7 +11,7 @@ const Todo_top = () => {
   const usersInput = () => {
     const request = {
       id: Math.floor(Math.random() * 9999999999),
-      content:inputValue
+      text:inputValue
     }
 
     setAdd([...add, request]);
