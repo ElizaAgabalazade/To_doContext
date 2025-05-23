@@ -16,7 +16,7 @@ const Todo_top = () => {
 
     setAdd([...add, request]);
     setInputValue("");
-    console.log(add)
+    // console.log(add)
   }
 
   const keepInput = (e)=>{
